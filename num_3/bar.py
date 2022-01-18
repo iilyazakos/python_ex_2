@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 st.set_page_config(layout = "wide")
-data = pd.read_csv('C:\dataset/bar.csv')
+data = pd.read_csv("https://github.com/iilyazakos/python_ex_2/blob/914413817b9bca86353093cab810ac467900ea38/num_3/bar_data.csv?raw=true")
 st.write(data)
 with st.container() as one_data:
     one, two = st.columns(2)
